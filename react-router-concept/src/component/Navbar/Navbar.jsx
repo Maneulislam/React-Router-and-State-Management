@@ -30,6 +30,18 @@ const Navbar = () => {
                 )}
             </NavLink>
 
+            <NavLink to="/users">
+                {({ isActive }) => (
+                    <span className={isActive ? "active" : ""}>Users</span>
+                )}
+            </NavLink>
+
+            <NavLink to="/users2">
+                {({ isActive }) => (
+                    <span className={isActive ? "active" : ""}>Users 2</span>
+                )}
+            </NavLink>
+
         </div>
     );
 };
