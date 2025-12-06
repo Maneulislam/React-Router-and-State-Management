@@ -11,6 +11,11 @@ const Cousin = ({ name }) => {
                 name === 'Joj' && <Special></Special>
             }
 
+            {
+                name === 'Sohag' && <Special></Special>
+            }
+
+
         </div>
     );
 };
